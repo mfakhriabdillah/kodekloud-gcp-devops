@@ -9,3 +9,7 @@ def hello_world():
 @app.route('/info')
 def halo():
     return 'This is an information page'
+
+@app.route('/blog')
+def halo():
+    return 'This is a blog page'    
